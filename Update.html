@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+<title>Update Data</title>
+</head>
+<body bgcolor="#b37ea2">
+<h1><u> Update Form</u></h1>
+<form action = "http://localhost/update.php" method = "post" name="UpdForm">
+
+<label>Code</label>
+<input type = "text" name = "code" >
+<br><br>
+<label>Name</label>
+<input type = "text" name = "name" >
+<br><br>
+<label>Weight</label>
+<input type = "text" name = "weight" >
+<br><br>
+<label>Special Ingredients</label>
+<input type = "text" name = "ingredients" >
+<br><br>
+<label>Price</label>
+<input type = "text" name = "price" >
+<br><br>
+<label>Category</label>
+<select name="category">
+    <option value="Birthday">Birthday</option>
+    <option value = "Wedding">Wedding </option>
+    <option value = "Normal"> Normal </option>
+    </select> <br/> <br/>
+
+<input type = "submit" value = "Update" name="submit">
+<input type = "reset">
+</form>
+</body>
+</html>
